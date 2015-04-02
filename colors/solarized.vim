@@ -1119,6 +1119,6 @@ autocmd ColorScheme * if g:colors_name != "solarized" | silent! aunmenu Solarize
 exe "hi! pythonSelf" .s:fg_base1 .s:bg_back .s:fmt_bold
 
 " (DN) Modified to add color to string and number
-exe "hi! Number" .s:fmt_none .s:fg_orange .s:bg_none
+" exe "hi! Number" .s:fmt_none .s:fg_orange .s:bg_none
 exe "hi! String" .s:fmt_none .s:fg_yellow .s:bg_none
 "}}}
